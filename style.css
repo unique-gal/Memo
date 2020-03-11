@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+.loginbox {
+  background-color: green;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Nanum Brush Script', cursive;
+
+  background-image: url('http://www.forest.go.kr/newkfsweb/cmm/fms/FileDown.do?atchFileId=FILE_000000010008639&fileSn=0');
+  background-position: center;
+  background-size: cover;
+
+  /* 이미지 가운데로 텍스트 정렬해주는 공식-암기할것 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.loginbox>h1 {
+  margin: 0 0 5px 0;
+}
+
+.loginbox>h5 {
+  margin: 5px 0 0 0;
+}
+
+.wrap {
+  margin: 10px 0 0 auto;
+  width: 300px;
+  margin: auto;
+  font-family: 'Nanum Myeongjo', serif;
+}
